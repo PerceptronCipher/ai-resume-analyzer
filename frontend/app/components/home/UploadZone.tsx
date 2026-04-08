@@ -229,7 +229,7 @@
 //     try {
 //       // Pointing to your live Render backend URL
 //       const response = await fetch(
-//         'https://ai-resume-analyzer-backend-o12w.onrender.com/analyze',
+//         'https://resume-analyzer.buildoninc.org/analyze',
 //         {
 //           method: 'POST',
 //           body: formData,
@@ -451,7 +451,7 @@ export default function UploadZone() {
 
   const handleAnalyze = async (mode: 'file' | 'text') => {
     setIsAnalyzing(true)
-    const baseUrl = 'https://ai-resume-analyzer-backend-o12w.onrender.com'
+    const baseUrl = 'https://resume-analyzer.buildoninc.org'
 
     try {
       let response
