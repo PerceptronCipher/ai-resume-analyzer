@@ -4,6 +4,21 @@ import React from 'react'
 import Link from 'next/link'
 import { X } from 'lucide-react' 
 
+export const XIcon = ({ size = 24, color = "currentColor", ...props }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill={color}
+      stroke="none"
+      {...props}
+    >
+      <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+    </svg>
+  );
+};
 const footerLinks = [
   {
     category: 'Product',
@@ -55,7 +70,7 @@ export default function Footer() {
             <div className='flex gap-4 pt-4'>
               
               <Link href='https://x.com/bitkinart?s=21' className='w-12 h-12 bg-[#E2E8F0] rounded-full flex items-center justify-center text-slate-600 hover:bg-[#CBD5E1] transition-colors'>
-                <Twitter color='blue' size={20} />
+                <XIcon />
               </Link>
             </div>
           </div>
@@ -96,3 +111,6 @@ export default function Footer() {
     </footer>
   )
 }
+
+
+
