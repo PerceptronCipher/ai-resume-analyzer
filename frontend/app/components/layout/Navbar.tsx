@@ -118,7 +118,7 @@ export default function Navbar() {
         {/* 1. Left: Brand Name */}
         <Link
           href='/'
-          className='text-xl font-[900] text-[#074799] tracking-tight z-[101] uppercase'
+          className='text-xl font-[900] text-[#074799] tracking-tight z-[101]'
         >
           BitKinart
         </Link>
