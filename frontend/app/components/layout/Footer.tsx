@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { X } from 'lucide-react' 
+
 
 export const XIcon = ({ size = 24, color = "currentColor", ...props }) => {
   return (
