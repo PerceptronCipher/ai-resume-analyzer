@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { Share2, Globe } from 'lucide-react' 
+import { Share2, Globe, X } from 'lucide-react' 
 
 const footerLinks = [
   {
@@ -40,10 +40,10 @@ export default function Footer() {
           {/* Brand Column - Updated text per Footer (1).png */}
           <div className='lg:col-span-3 space-y-8'>
             <Link
-              href='#home'
+              href='/'
               className='text-2xl font-bold text-[#111111] tracking-tight'
             >
-              Resume Analyzer
+              BitKinart
             </Link>
             <p className='text-slate-500 font-medium max-w-sm leading-relaxed text-[15px]'>
               Empowering job seekers with enterprise-grade AI tools to navigate
@@ -59,6 +59,9 @@ export default function Footer() {
               <button className='w-12 h-12 bg-[#E2E8F0] rounded-full flex items-center justify-center text-slate-600 hover:bg-[#CBD5E1] transition-colors'>
                 <Globe size={20} />
               </button>
+              <Link href='https://x.com/bitkinart?s=21' className='w-12 h-12 bg-[#E2E8F0] rounded-full flex items-center justify-center text-slate-600 hover:bg-[#CBD5E1] transition-colors'>
+                <X size={20} />
+              </Link>
             </div>
           </div>
 
