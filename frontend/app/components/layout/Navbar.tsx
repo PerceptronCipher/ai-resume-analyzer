@@ -117,10 +117,10 @@ export default function Navbar() {
       <div className='max-w-[1440px] mx-auto h-24 flex items-center justify-between relative'>
         {/* 1. Left: Brand Name */}
         <Link
-          href='#home'
+          href='/'
           className='text-xl font-[900] text-[#074799] tracking-tight z-[101] uppercase'
         >
-          Resume Analyzer
+          BitKinart
         </Link>
 
         {/* 2. Middle: Desktop Navigation (Absolute Centered) */}
