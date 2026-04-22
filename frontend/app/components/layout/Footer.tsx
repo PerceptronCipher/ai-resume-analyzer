@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { Share2, Globe, Twitter } from 'lucide-react' 
+import { Twitter } from 'lucide-react' 
 
 const footerLinks = [
   {
