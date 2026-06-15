@@ -58,12 +58,11 @@ export default function Footer() {
               href='/'
               className='text-2xl font-bold text-[#111111] tracking-tight'
             >
-              BitKinart
+              JobBit AI
             </Link>
             <p className='text-slate-500 font-medium max-w-sm leading-relaxed text-[15px]'>
-              Empowering job seekers with enterprise-grade AI tools to navigate
-              the modern hiring landscape. Precision analysis for professional
-              results.
+              An Al tool that improves resumes, analyzes content, and gives ATS
+              scores to help users get job-ready and noticed.
             </p>
 
             {/* Round Social/Action Icons from Footer (1).png */}
