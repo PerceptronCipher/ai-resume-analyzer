@@ -120,7 +120,7 @@ export default function Navbar() {
           href='/'
           className='text-xl font-[900] text-[#074799] tracking-tight z-[101]'
         >
-          BitKinart
+          JobBit AI
         </Link>
 
         {/* 2. Middle: Desktop Navigation (Absolute Centered) */}
