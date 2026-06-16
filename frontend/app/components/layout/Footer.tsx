@@ -68,7 +68,7 @@ export default function Footer() {
             {/* Round Social/Action Icons from Footer (1).png */}
             <div className='flex gap-4 pt-4'>
               
-              <Link href='https://x.com/bitkinart?s=21' className='w-12 h-12 bg-[#E2E8F0] rounded-full flex items-center justify-center text-slate-600 hover:bg-[#CBD5E1] transition-colors'>
+              <Link href='https://x.com/jobbitai6k?s=21' className='w-12 h-12 bg-[#E2E8F0] rounded-full flex items-center justify-center text-slate-600 hover:bg-[#CBD5E1] transition-colors'>
                 <XIcon />
               </Link>
             </div>
