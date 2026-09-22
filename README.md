@@ -6,15 +6,6 @@ Upload your resume and get an instant ATS score, extracted skills, experience su
 
 ---
 
-## Live Demo
-
-| Service | URL |
-|---|---|
-| Backend API | _Coming soon_  |
-| Frontend | _Coming soon_ |
-
----
-
 ## What It Does
 
 - Upload a PDF or DOCX resume, or paste resume text directly
